@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+	background-image: url("Product-SlideShowBackground-1350x1080-96-2.png");
+    height: 120vh;
+	width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0 auto;
+}
+
+header{
+		text-align: center !important;
+
+}
+
+
+
+.logo-jogos-de-sempre{
+ 	background-repeat: no-repeat !important;
+	background-position: center;
+	width: 110px;
+	max-width: 70%;
+	padding-top: 4%;
+	text-align: center !important;
+
+}
+
+
+h1{
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	font-size: 1.2rem;
+	color: white; text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+main{
+	margin:2% 4% 6% 4% ;
+    padding:2% 2% 2% 2%;
+	background-color: hsla(0,0%,0%,0.57);
+	border-radius: 20px;
+	text-align:center !important;
+}
+
+
+span{
+	font-family: "Open Sans", sans-serif;
+	font-size: 0.8rem;
+	color:#ffffff;
+	font-weight: 500;
+}
+
+input {
+	padding:8px;
+	border-radius: 20px;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-size: 0.9rem;
+	}
+
+button{
+	background-color: #D7034E;
+	padding:8px;
+	border-radius: 20px;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-size: 0.9rem;
+	color: #ffffff;
+	padding-right: 20px;
+	padding-left: 20px;
+	border:none!important;
+	
+}
+
+footer{
+	font-family: "Open Sans", sans-serif;
+	font-size: 0.4rem;
+	color:#ffffff;
+	background-color: black;
+	bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+	padding:3% 0 2% 0;
+}
+
+@media only screen and (max-width: 600px){
+
+.logo-jogos-de-sempre {
+    background-repeat: no-repeat !important;
+    background-position: center;
+    width: 110px;
+    max-width: 60%;
+    padding-top: 8%;
+    text-align: center !important;
+}
+
+body{
+	background-image:url("Product-SlideShowBackground-1350x1080-96-2.png");
+    height: 120vh;
+	width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
+    padding: 0;
+    margin: 0 auto;
+	}}
